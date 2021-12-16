@@ -6,6 +6,7 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import GoToTop from '../components/GotoTop/GoToTop';
+import MessengerChat from '../components/MessengerChat/MessengerChat';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Technologies />
       <Timeline />
       <GoToTop />
+      <MessengerChat />
     </Layout>
   );
 };
