@@ -49,7 +49,7 @@ export default GoToTop;
 const GOTop = styled.section`
   position: fixed;
   cursor: pointer;
-  bottom: 20px;
+  bottom: 100px;
   right: 0;
   background: #0f1624;
   z-index: 100;
