@@ -1,12 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Headroom from 'react-headroom';
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillTwitterCircle,
-} from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import {
   Container,
   Div1,
@@ -20,7 +15,7 @@ const Header = () => (
   <Headroom>
     <Container>
       <Div1>
-        <Link href="/">
+        <Link href="#">
           <a
             style={{
               display: 'flex',
@@ -34,9 +29,6 @@ const Header = () => (
               width={50}
               style={{ borderRadius: '50%', overflow: 'hidden' }}
             />
-            {/* <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
-              Rayhan
-            </span> */}
           </a>
         </Link>
       </Div1>
@@ -63,13 +55,22 @@ const Header = () => (
         </li>
       </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/Rayhan0Islam0Shagor">
+        <SocialIcons
+          target="_blank"
+          href="https://github.com/Rayhan0Islam0Shagor"
+        >
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="www.linkedin.com/in/rayhan045">
+        <SocialIcons
+          target="_blank"
+          href="https://www.linkedin.com/in/rayhan045"
+        >
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/is_rayhan_sh/">
+        <SocialIcons
+          target="_blank"
+          href="https://www.instagram.com/is_rayhan_sh/"
+        >
           <AiFillInstagram size="3rem" />
         </SocialIcons>
       </Div3>

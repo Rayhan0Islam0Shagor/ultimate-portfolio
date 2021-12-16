@@ -46,13 +46,22 @@ const Footer = () => {
           </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Rayhan0Islam0Shagor">
+          <SocialIcons
+            target="_blank"
+            href="https://github.com/Rayhan0Islam0Shagor"
+          >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="www.linkedin.com/in/rayhan045">
+          <SocialIcons
+            target="_blank"
+            href="https://www.linkedin.com/in/rayhan045"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/is_rayhan_sh/">
+          <SocialIcons
+            target="_blank"
+            href="https://www.instagram.com/is_rayhan_sh/"
+          >
             <AiFillInstagram size="3rem" />
           </SocialIcons>
           {/* <SocialIcons href="https://www.twitter.com/lordarcadius">
