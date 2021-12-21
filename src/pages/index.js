@@ -7,20 +7,25 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import GoToTop from '../components/GotoTop/GoToTop';
 import MessengerChat from '../components/MessengerChat/MessengerChat';
+import SEO from '../common/SEO';
 
 const Home = () => {
   return (
-    <Layout>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      <GoToTop />
-      <MessengerChat />
-    </Layout>
+    <>
+      <SEO headTitle="Rayhan Islam" />
+
+      <Layout>
+        <Section grid>
+          <Hero />
+          <BgAnimation />
+        </Section>
+        <Projects />
+        <Technologies />
+        <Timeline />
+        <GoToTop />
+        <MessengerChat />
+      </Layout>
+    </>
   );
 };
 

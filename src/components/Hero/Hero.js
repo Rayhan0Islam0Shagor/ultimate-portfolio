@@ -17,8 +17,7 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-          Hey there, This is Rayhan Islam Shagor. I'm a web developer who also
-          works on{' '}
+          This is Rayhan Islam Shagor. I'm a web developer who also works on{' '}
           <span>
             <a
               href="https://www.fiverr.com/rayhanislam45?up_rollout=true"

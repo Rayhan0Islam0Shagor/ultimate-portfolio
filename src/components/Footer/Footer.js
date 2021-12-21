@@ -18,6 +18,7 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from './FooterStyles';
+import ContactForm from '../ContactForm/ContactForm';
 
 const Footer = () => {
   return (
@@ -32,16 +33,18 @@ const Footer = () => {
           <LinkItem href="mailto:raihanislamshagor2@gmail.com">
             raihanislamshagor2@gmail.com
           </LinkItem>
+
+          {/* <LinkTitle>Contact me</LinkTitle>
+          <ContactForm /> */}
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            &copy; 2022{' '}
-            <Link href="https://github.com/Rayhan0Islam0Shagor">
-              {' '}
+            &copy; {new Date().getFullYear()}
+            <Link target="_blank" href="https://github.com/Rayhan0Islam0Shagor">
               Rayhan Islam
-            </Link>{' '}
+            </Link>
             . All rights reserved.
           </Slogan>
         </CompanyContainer>
